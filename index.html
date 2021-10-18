@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Balls</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+    <h1>Sokoban</h1>
+    <h2>Score:<span>100</span></h2>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <button class="btn restart">Restart!</button>
+    <button class="undo">Undo</button>
+    <div class="modal">
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>
+<!-- <audio>
+    <source src="audio.mp4">
+</audio>
+<button class="btn restart">Restart!</button>
+<div class="modal">You've Won
+    <button onclick="closeModal()">x</button>
+    <button onclick="restartGame()"><span></span>Restart Game</button>
+</div> -->

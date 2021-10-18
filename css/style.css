@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(36, 34, 151);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    display: block;
+}
+
+table {
+    margin: auto;
+}
+
+.x {
+    border: 1px blue;
+}
+
+.board {
+    background-color: rgba(193, 194, 209, 0.418);
+    border-radius: 1%;
+    border: 5px rgb(0, 0, 0) solid;
+    display: inline-block;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    text-align: center
+}
+
+.cell img {
+    width: 50px;
+    height: auto
+}
+
+.floor {
+    background-color: gray
+}
+
+.wall {
+    background-color: brown
+}
+
+/* .target {
+    background-color: bisque;
+} */
+
+.modal {
+    background-color: rgb(32, 34, 178);
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
